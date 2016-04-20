@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dip"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupPwr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignTop="@+id/linearLayout1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="Choose your Power Manager Option:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioSuspend"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:text="Suspend (sleep mode)" />
+
+        <RadioButton
+            android:id="@+id/radioReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perform reset (reboot)" />
+
+        <RadioButton
+            android:id="@+id/radioOSUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perform OS Update" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="Specify Path and Name of the Zip file in the file system for OS Update"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_zip_file_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Path and Name of Zip file"
+            android:maxLines="2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupPwr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Set" />
+
+</RelativeLayout>
