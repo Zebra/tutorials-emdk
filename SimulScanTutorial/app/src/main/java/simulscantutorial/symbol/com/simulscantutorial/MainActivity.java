@@ -109,7 +109,7 @@ public class MainActivity extends Activity implements EMDKManager.EMDKListener,
 
         // Get the SimulScanManager object
         simulscanManager = (SimulScanManager) emdkManager
-                .getInstance(EMDKManager.FEATURE_TYPE.SimulScan);
+                .getInstance(EMDKManager.FEATURE_TYPE.SIMULSCAN);
 
         if (null == simulscanManager) {
             textViewStatus.setText("Status: "
@@ -238,7 +238,7 @@ public class MainActivity extends Activity implements EMDKManager.EMDKListener,
                         + "/simulscan/templates/MyTemplate.xml";
                 File file = new File(templatePath);
                 // Get the SimulScan Template
-                SimulScanMultiTemplate myTemplate = new SimulScanMultiTemplate(Uri.fromFile(file));
+                SimulScanMultiTemplate myTemplate = new SimulScanMultiTemplate(simulscanManager,Uri.fromFile(file));
 
                 // Set the template with SimulScanConfig settings
                 if(myTemplate != null)
@@ -376,8 +376,7 @@ public class MainActivity extends Activity implements EMDKManager.EMDKListener,
                         break;
                     case ERROR:
                         textViewStatus.setText("Status: "
-                                + statusData.getFriendlyName() + ": Error-"
-                                + statusData.extendedInfo.getExtendedStatus());
+                                + statusData.getFriendlyName() );
                         break;
                     case UNKNOWN:
                     default:
