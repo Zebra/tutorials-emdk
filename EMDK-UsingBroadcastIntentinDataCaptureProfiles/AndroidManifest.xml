@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.symbol.emdksample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.symbol.emdk" />
+
+        <activity
+            android:name="com.symbol.emdksample.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.symbol.emdksample.RECVR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.symbol.emdksample.MSRActivity"
+            android:label="@string/title_activity_msr" >
+        </activity>
+        <activity
+            android:name="com.symbol.emdksample.MSRCompletedActivity"
+            android:label="@string/title_activity_msrcompleted" >
+            <intent-filter>
+                <action android:name="com.symbol.emdksample.RECVRMSR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.symbol.emdksample.BroadcastIntentActivity"
+            android:label="@string/title_activity_broadcast_intent" >
+        </activity>
+    </application>
+
+</manifest>
