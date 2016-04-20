@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/btn_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dip" />
+
+        <Spinner
+            android:id="@+id/scanner_type_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_barcode" />
+
+        <CheckBox
+            android:id="@+id/checkBoxEAN8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/scanner_type_spinner"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="20dp"
+            android:checked="true"
+            android:enabled="true"
+            android:text="@string/EAN8_string" />
+
+        <CheckBox
+            android:id="@+id/checkBoxEAN13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/scanner_type_spinner"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="12dip"
+            android:layout_marginTop="20dip"
+            android:text="@string/EAN13_string" />
+
+        <CheckBox
+            android:id="@+id/checkBoxUPCA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBoxEAN8"
+            android:layout_margin="5dip"
+            android:checked="true"
+            android:enabled="true"
+            android:text="@string/UPCE_string" />
+
+        <CheckBox
+            android:id="@+id/checkBoxUPCE0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBoxEAN13"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="12dip"
+            android:layout_marginTop="5dip"
+            android:text="@string/UPCE0_string" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCode128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBoxUPCA"
+            android:layout_margin="5dip"
+            android:checked="true"
+            android:enabled="true"
+            android:text="@string/code128_string" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCode39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBoxUPCE0"
+            android:layout_margin="5dip"
+            android:text="@string/code39_string" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBoxCode39"
+            android:layout_margin="10dip"
+            android:ems="5"
+            android:inputType="none"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/btn_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dip"
+            android:text="@string/button_set_string" />
+    </RelativeLayout>
+
+</ScrollView>
