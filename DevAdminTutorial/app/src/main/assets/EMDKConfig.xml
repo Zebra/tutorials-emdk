@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="3.1.9"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="DevAdminProfile"/>
+    <parm name="ModifiedDate" value="2015-03-20 15:32:06"/>
+    <parm name="TargetSystemVersion" value="4.3"/>
+  <characteristic type="DevAdmin" version="4.3">
+      <parm name="emdk_name" value="MyDevAdminManager"/>
+      <parm name="UnknownSourcesStatus" value="1"/>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
