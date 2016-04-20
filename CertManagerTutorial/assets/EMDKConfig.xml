@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+<characteristic type="ProfileInfo">
+<parm name="created_wizard_version" value="3.0.2"/>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="CertificateProfile"/>
+<parm name="ModifiedDate" value="2014-10-03 15:40:40"/>
+<characteristic type="CertMgr" version="4.2">
+<parm name="emdk_name" value="MyKeystore"/>
+<parm name="CertAction" value="4"/>
+<characteristic type="keystore-details">
+<parm name="KeystorePassword" value="1234"/>
+</characteristic>
+</characteristic>
+<characteristic type="CertMgr" version="4.2">
+<parm name="emdk_name" value="MyCertificateManager"/>
+<parm name="CertAction" value="1"/>
+<characteristic type="cert-details">
+<parm name="CertAlias" value="Test-Certificate"/>
+<parm name="CertType" value="5"/>
+<parm name="CertMethod" value="2"/>
+<parm name="CertFileCA" value="/storage/sdcard1/test.pem"/>
+<parm name="CertAdjustClock" value="false"/>
+</characteristic>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>
