@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="hello">Hello World, DWDemoSample!</string>
+    <string name="app_name">DWDemoSample</string>
+    <string name="title">DataWedge Demo Sample</string>
+    <string name="copyright">&#169; 2012 Motorola Solutions, Inc.</string>
+    <string name="intro">DataWedge allows you to add data capture capability to any application without writing code. Launch your application, press the scan trigger and DataWedge types the data into your application. (Tap the DW logo to toggle the soft scan trigger)</string>
+    <string name="intentAction">com.motorolasolutions.emdk.sample.dwdemosample.RECVR</string>
+    
+</resources>
