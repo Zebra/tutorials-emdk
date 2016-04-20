@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="3.1.15"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="EncryptProfile"/>
+    <parm name="ModifiedDate" value="2015-04-15 18:05:17"/>
+    <parm name="TargetSystemVersion" value="4.3"/>
+  <characteristic type="EncryptMgr" version="4.3">
+      <parm name="emdk_name" value="MyEncryptManager"/>
+      <characteristic type="InstallKey">
+        <parm name="InstallKeyAction" value="1"/>
+        <characteristic type="InstallKeyDetails">
+          <parm name="InstallKeyName" value="SampleKey"/>
+        </characteristic>
+      </characteristic>
+      <characteristic type="CreateEFS">
+        <parm name="CreateEFSAction" value="1"/>
+        <characteristic type="CreateEFSDetails">
+          <parm name="EFSName" value="SampleEFS"/>
+          <parm name="EFSKeyName" value="SampleKey"/>
+          <parm name="EFSLocation" value="1"/>
+          <parm name="MountPath" value="/external"/>
+          <parm name="VolumeSize" value="5"/>
+        </characteristic>
+      </characteristic>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
