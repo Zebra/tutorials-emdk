@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+<characteristic type="ProfileInfo">
+<parm name="created_wizard_version" value="3.0.2"/>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="MxClockProfile"/>
+<parm name="ModifiedDate" value="2014-09-20 18:55:48"/>
+<characteristic type="Clock" version="4.2">
+<parm name="emdk_name" value="MxClock"/>
+<parm name="AutoTime" value="false"/>
+<parm name="TimeZone" value="GMT-07:00"/>
+<parm name="Date" value="2014-12-22"/>
+<parm name="Time" value="20:00:00"/>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>
