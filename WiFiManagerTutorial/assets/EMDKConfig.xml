@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+<characteristic type="ProfileInfo">
+<parm name="created_wizard_version" value="3.0.2"/>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="WiFiProfile"/>
+<parm name="ModifiedDate" value="2014-09-19 15:12:20"/>
+<characteristic type="Wi-Fi" version="2.7">
+<parm name="emdk_name" value="MyWiFi"/>
+<characteristic type="System">
+<parm name="WiFiAction" value="enable"/>
+</characteristic>
+<parm name="UseRegulatory" value="0"/>
+<parm name="UseAdvancedOptions" value="0"/>
+<parm name="NetworkAction" value="Add"/>
+<characteristic type="network-profile">
+<parm name="SSID" value="rholink-ap"/>
+<parm name="SecurityMode" value="1"/>
+<parm name="WPAMode" value="1"/>
+<characteristic type="key-details">
+<parm name="KeyType" value="Passphrase"/>
+<parm name="ProtectKey" value="1"/>
+<parm name="PassphraseWPAEncrypted" value="rhoworkfastmobile"/>
+</characteristic>
+<parm name="UseDHCP" value="1"/>
+<parm name="UseProxy" value="0"/>
+</characteristic>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>
