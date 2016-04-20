@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="3.1.9"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="DisplayProfile"/>
+    <parm name="ModifiedDate" value="2015-03-16 19:35:40"/>
+    <parm name="TargetSystemVersion" value="4.3"/>
+  <characteristic type="DisplayMgr" version="4.3">
+      <parm name="emdk_name" value="MyDisplayManager"/>
+      <parm name="TimeoutInterval" value="30"/>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
