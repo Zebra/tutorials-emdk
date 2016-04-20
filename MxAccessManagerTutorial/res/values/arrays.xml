@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Array for System Settings Menu -->
+    <string-array name="system_settings_array">
+        <item>Full Access</item>
+        <item>Reduced Access</item>
+    </string-array>
+
+    <!-- Array for delete packages options -->
+    <string-array name="delete_packages_array">
+        <item>Delete NO Packages</item>
+        <item>Delete Specified Packages(s)</item>
+        <item>Delete ALL Packages</item>
+    </string-array>
+
+    <!-- Array for Add packages options -->
+    <string-array name="add_packages_array">
+        <item>Add NO Packages</item>
+        <item>Add Specified Packages(s)</item>
+    </string-array>
+
+</resources>
