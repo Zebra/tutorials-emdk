@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+<characteristic type="ProfileInfo">
+<parm name="created_wizard_version" value="2.1.14"/>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="AppManagerProfile"/>
+<parm name="ModifiedDate" value="2014-07-25 16:37:53"/>
+
+
+<characteristic type="AppMgr" version="0.5">
+<parm name="emdk_name" value="MyAppManager"/>
+<parm name="Action" value="Install"/>
+<parm name="APK" value="/storage/sdcard1/AllInstalledApps.apk"/>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>
