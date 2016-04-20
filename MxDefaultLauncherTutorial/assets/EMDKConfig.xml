@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+<characteristic type="ProfileInfo">
+<parm name="created_wizard_version" value="3.0.2"/>
+</characteristic>
+<characteristic type="Profile">
+<parm name="ProfileName" value="DefaultLauncherProfile"/>
+<parm name="ModifiedDate" value="2014-09-19 15:58:53"/>
+<characteristic type="AppMgr" version="4.2">
+<parm name="emdk_name" value=""/>
+<parm name="Action" value="SetDefaultLauncher"/>
+<parm name="Package" value="com.motorolasolutions.enterprisehomescreen"/>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>
